@@ -86,6 +86,26 @@ x \\
 y
 \end{bmatrix}
 $$
+- 旋转变换的特殊性质
+$$
+R_\theta
+=
+\begin{bmatrix}
+cos\theta & -sin\theta \\
+sin\theta & cos\theta
+\end{bmatrix}
+$$
+$$
+R_{-\theta}
+=
+\begin{bmatrix}
+cos\theta & sin\theta \\
+-sin\theta & cos\theta
+\end{bmatrix}
+$$
+$$
+R_{-\theta}=R_\theta^T=R_\theta^{-1}
+$$
 
 ### 综上，所有线性二维变换都可以写成矩阵形式
 
