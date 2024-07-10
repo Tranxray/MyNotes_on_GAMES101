@@ -226,3 +226,14 @@ $$
     $$An+B=n^2 \space \space Af+B=f^2\\A=n+f\space\space B=-nf$$
     - and we know $M_{persp->ortho}^{(4\times4)}$
     
+3. 定义视锥的另一种方式(从视线出发)
+   - vertical field_of_view 垂直视角 (fovY)
+   - aspect ratio 长宽比
+   - near and far
+   - (垂直视角和长宽比可推出水平视角)
+    ![alt text](image-8.png)
+4. how to convert from fovY and aspect to l,r,b,t?
+   - $$\tan\frac{fovY}{2}=\frac{t}{\left|n\right|}$$
+   - $$aspect=\frac{r}{t}$$
+    ![alt text](image-9.png)
+
