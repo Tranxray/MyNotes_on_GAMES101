@@ -115,7 +115,7 @@ T_{view}=
     0&0&0&1
 \end{bmatrix}
 \\
-Rotate\space g\space to\space -Z,\space t\space to\space Y, (g\space x\space t)\space to\space X
+Rotate\space g\space to\space -Z,\space t\space to\space Y, (g\times t)\space to\space X
 - Consider\space its\space inverse\space rotation:\\
 X\space to\space (g\space x\space t)\space,\space Y\space to\space t, Z\space to\space -g\\
 R_{view}^{-1}=
