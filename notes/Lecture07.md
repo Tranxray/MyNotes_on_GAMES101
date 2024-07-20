@@ -51,3 +51,19 @@
    - ![alt text](image-27.png)
    - k_d = 1: 无吸收, 全反射; k_d = 0: 无反射, 全吸收
    - different color: define different k_d for r,g,b color
+5. Specular Reflection 镜面反射
+   - Intensity depends on view direction
+   - Bright near mirror reflection direction
+   - "V close to mirror direction" is equal to "half vector near normal"
+   - Measure "near" by dot product of unit vectors
+   ![alt text](image-28.png)
+   ![alt text](image-29.png)
+   - normally, p>=100
+   ![alt text](image-30.png)
+
+6. Anbient Term 环境光照
+   - Shading that does not depend on anything
+   - Add CONSTANT color to account for disregarded illumination and fill in balck shadows
+   - this is approximate
+   ![alt text](image-31.png)
+   ![alt text](image-32.png)

@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g", // 生成调试信息
+                "-std=c++11", // 启用 C++11 标准
+                "Assignment1/代码框架/main.cpp", // 你的 C++ 源文件
+                "-o",
+                "main", // 输出可执行文件
+                "-I/usr/local/include", // 包含 Eigen 头文件
+                "-I/usr/local/include/opencv4", // 包含 OpenCV 头文件
+                "-L/usr/local/lib", // 库文件路径
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Generated task by VS Code"
+        }
+    ]
+}
