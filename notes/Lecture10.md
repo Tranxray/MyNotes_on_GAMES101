@@ -17,11 +17,12 @@
 
 Best representation depends on the task!
 
-3. Constructive Solid Geometry (Implicit) CSG隐式表示法
+## Implicit Representations
+1. Constructive Solid Geometry (Implicit) CSG隐式表示法
    - Combine implicit geometry via Boolean operations
     ![alt text](image-56.png)
 
-4. Distance Functions (Implicit)
+2. Distance Functions (Implicit)
    - giving minimum distance (could be signed distance)from anywhere to object
    - an example: Blending a moving boundary
     ![alt text](image-57.png)
@@ -33,6 +34,20 @@ Best representation depends on the task!
         ![alt text](image-59.png)
      - Can be used in 3D to find out surfaces
 
-5. Fractals 分形 (Implicit)
+3. Fractals 分形 (Implicit)
    - Exhibit self-similarity, detail at all scales
    - Hard to control shape
+
+## Explicit Representations
+1. Point Cloud
+   - list of points (x,y,z)
+   - Easily represent any kind of geometry
+   - Useful for large datasets (>> 1 point/pixel)
+   - Often converted into polygon mesh 多边形网格
+   - Difficult to draw in undersamlped regions
+
+2. Polygon Mesh 多边形网格
+   ![alt text](image-61.png)
+   - Commonly used in Graphics research
+   - Just a text file that specifies vertices, normals, texture coordinates and their connectivities
+   ![alt text](image-62.png)

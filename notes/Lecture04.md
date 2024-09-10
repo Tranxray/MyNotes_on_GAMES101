@@ -67,9 +67,9 @@
    R_{xyz}(\alpha,\beta,\gamma) = 
    R_x(\alpha)R_y(\beta)R_z(\gamma)
    $$
-   $$
-   So-called Euler angles, often used in flight simulators: roll, pitch, yaw
-   $$
+   
+                                So-called Euler angles, often used in flight simulators: roll, pitch, yaw
+   
    - rotation by angle $\alpha$ around axis n (bypass (0,0,0) ) :
     $$
     R(\mathbf{n},\alpha)=cos(\alpha)\mathbf{I}+(1-cos\alpha)\mathbf{n}\mathbf{n}^T+sin\alpha
