@@ -45,7 +45,3 @@
 ![alt text](image-72.png)
 - 类似双线性插值的思想，通过分别在横向每四个点采用贝塞尔曲线，然后在纵向上每个位置取四个曲线上的点再进行取贝塞尔曲线，得到贝塞尔曲面
 
-### Mesh Operations: Geometry Processing 网格
-- Mesh subdivision 网格细分
-- Mesh simplification 网格简化
-- Mesh regulatization 网格正规化（如，使三角形尽量趋于正三角形）
