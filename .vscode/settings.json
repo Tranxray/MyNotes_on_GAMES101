@@ -2,6 +2,21 @@
     "files.associations": {
         "cmath": "cpp",
         "bvh": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "__split_buffer": "cpp",
+        "__tree": "cpp",
+        "deque": "cpp",
+        "hash_map": "cpp",
+        "iterator": "cpp",
+        "list": "cpp",
+        "locale": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "*.tcc": "cpp",
+        "memory": "cpp",
+        "random": "cpp",
+        "functional": "cpp"
     }
 }
