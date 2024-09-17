@@ -83,3 +83,19 @@
    - Isotropic Point Source 各向同性点源
      - $\phi = \int_{S^2}I \space d\omega = 4\pi I$
      - $I= \frac{\phi}{4\pi}$
+
+5. Irradiance
+   - Definition: The irradiance is the power per (perpendicular/projected 垂直/投影) unit area incident on a surface point.
+    ![alt text](image-110.png)
+    ![alt text](image-111.png)
+   - Irradiance Falloff:
+    ![alt text](image-112.png)
+
+6. Radiance
+   - Definition: The radiance (luminance) is the power emitted, reflected, transmitted or received by a surface, per unit solid angle, per projected unit area
+   - Radiance is the fundamental field quantity that describes the distribution of light in an environment
+    ![alt text](image-113.png)
+   - Radiance = Irradiance per solid angle
+   - Radiance = Intensity per projected unit area
+    ![alt text](image-114.png)
+
