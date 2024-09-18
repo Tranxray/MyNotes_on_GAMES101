@@ -1,4 +1,4 @@
-# Lecture 15 Ray Tracing 3
+# Lecture 15 Ray Tracing 3 (Global illumination)
 
 ## Rendering Equation
 
