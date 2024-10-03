@@ -3,7 +3,8 @@
         {
             "name": "Mac",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/assignment8/CGL/include/**"
             ],
             "defines": [],
             "macFrameworkPath": [
